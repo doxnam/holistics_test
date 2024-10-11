@@ -1,6 +1,6 @@
 Dashboard untitled_74 {
-  title: 'Untitled'
-  description: ''''''
+  title: '''vcspentest{{7*7}}{7*'7'}{%7*7%}'"><h1>hello</h1>'''
+  description: '''vcspentest{{7*7}}{7*'7'}{%7*7%}'"><h1>hello</h1>'''
 
   block title: TextBlock {
     content: @md # Your title goes here
@@ -43,5 +43,7 @@ Dashboard untitled_74 {
   }
 
   theme: H.themes.classic
-
+  settings {
+    timezone: 'Etc/UTC'
+  }
 }
