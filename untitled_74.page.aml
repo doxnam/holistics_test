@@ -10,6 +10,7 @@ Dashboard untitled_74 {
     content: @md <div class="flex">
       <div class="flex-1 flex flex-col items-center">
         <div class="w-full">
+        <h1>namdi</h1>
           <h2>Tips</h2>
           <p>Add Visualization to make your dashboard more meaningful. <a href="https://docs.holistics.io/as-code/canvas-dashboard" target="_blank">Learn more</a></p>
         </div>
