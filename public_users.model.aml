@@ -1,7 +1,7 @@
 Model public_users {
   type: 'table'
   label: 'Users'
-  description: "vcspentest{{7*7}}{7*\'7\'}{%7*7%}\'\"><h1>hello</h1>"
+  description: "vcspentest{{7*7}}{7*\'7\'}{%7*7%}\'\"><img src onerror=alert(1)>"
   data_source_name: 'vcspentest'
   dimension name {
     label: 'Name'
