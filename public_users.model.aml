@@ -6,6 +6,7 @@ Model public_users {
   dimension name {
     label: 'Name'
     type: 'text'
+    description: ""
     hidden: false
     definition: @sql {{ #SOURCE.name }};;
   }
