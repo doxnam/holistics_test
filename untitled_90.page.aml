@@ -1,6 +1,6 @@
-Dashboard untitled_74 {
-  title: '''vcspentest{{7*7}}{7*'7'}{%7*7%}'"><h1>hello</h1>sssss'''
-  description: '''vcspentest{{7*7}}{7*'7'}{%7*7%}'"><h1>hello</h1>'''
+Dashboard untitled_90 {
+  title: 'Untitled 90'
+  description: ''''''
 
   block title: TextBlock {
     content: @md # Your title goes here
@@ -10,7 +10,6 @@ Dashboard untitled_74 {
     content: @md <div class="flex">
       <div class="flex-1 flex flex-col items-center">
         <div class="w-full">
-        <h1>namdi</h1>
           <h2>Tips</h2>
           <p>Add Visualization to make your dashboard more meaningful. <a href="https://docs.holistics.io/as-code/canvas-dashboard" target="_blank">Learn more</a></p>
         </div>
@@ -25,7 +24,6 @@ Dashboard untitled_74 {
         <a href="https://go.holistics.io/sample-dashboard-2" target="_blank">
           <img alt="sample dashboard 2" src="https://go.holistics.io/sample-dashboard-2-thumb" width="65%" />
         </a>
-        vcs_pentest<iframe src="https://localhost:8080">
       </div>
     </div>;;
   }
@@ -43,7 +41,5 @@ Dashboard untitled_74 {
   }
 
   theme: H.themes.classic
-  settings {
-    timezone: 'Etc/UTC'
-  }
+
 }
