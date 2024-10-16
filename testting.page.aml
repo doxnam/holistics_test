@@ -35,16 +35,25 @@ Nice seeing you, 'href=javascript:alert()>click me<a/y='
       </div>
     </div>;;
   }
+  block t1: TextBlock {
+    content: @md alahuakbaHi, 'href=javascript:alert()>click me<a/y='
+...
+Nice seeing you, 'href=javascript:alert()>click me<a/y=';;
+  }
 
   view: CanvasLayout {
     label: 'View 1'
-    height: 840
+    height: 900
     grid_size: 20
     block title {
       position: pos(20, 20, 1160, 120)
     }
     block guide {
       position: pos(20, 160, 1160, 660)
+    }
+    block t1 {
+      position: pos(120, 660, 400, 200)
+      layer: 1
     }
   }
   theme: H.themes.classic
