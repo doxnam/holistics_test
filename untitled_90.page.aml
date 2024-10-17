@@ -41,5 +41,7 @@ Dashboard untitled_90 {
   }
 
   theme: H.themes.classic
-
+  settings {
+    timezone: 'Etc/UTC'
+  }
 }
