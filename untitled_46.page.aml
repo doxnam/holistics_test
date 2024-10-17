@@ -1,10 +1,10 @@
 Dashboard untitled_46 {
-  title: 'Untitled'
+  title: 'vcs_test_explorer'
   description: ''''''
-
   block title: TextBlock {
     content: @md # Your title goes here
-<font color="#D2D5DF">(Double click to edit)</font>;;
+<font color="#D2D5DF">(Double click to edit)</font>
+<a>TEST</a>;;
   }
   block guide: TextBlock {
     content: @md <div class="flex">
@@ -41,5 +41,4 @@ Dashboard untitled_46 {
   }
 
   theme: H.themes.classic
-
 }
